@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.dasein</groupId>
     <artifactId>dasein-cloud-openstack</artifactId>
-    <version>2015.06.4</version>
+    <version>2015.06.4p1</version>
     <name>Dasein Cloud Nova</name>
     <description>Dasein Cloud implementation for the OpenStack APIs</description>
 
@@ -245,13 +245,12 @@
 
     <distributionManagement>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-            <uniqueVersion>false</uniqueVersion>
+            <id>enstratus</id>
+            <url>https://artifactory.int.enstratius.com/artifactory/libs-release-local</url>
         </repository>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>enstratus-snapshot</id>
+            <url>https://artifactory.int.enstratius.com/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
 
